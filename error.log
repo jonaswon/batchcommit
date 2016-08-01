@@ -1,0 +1,32 @@
+The driver executable does not exist: C:\testwebdriver\IEDriverServer.exe
+2016-7-27 16:43:29 org.openqa.selenium.ie.InternetExplorerDriverServer initializeLib
+警告: This method of starting the IE driver is deprecated and will be removed in selenium 2.26. Please download the IEDriverServer.exe from http://code.google.com/p/selenium/downloads/list and ensure that it is in your PATH.
+2016-7-27 16:43:31 org.apache.http.impl.client.DefaultRequestDirector tryExecute
+信息: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:26491: The target server failed to respond
+2016-7-27 16:43:31 org.apache.http.impl.client.DefaultRequestDirector tryExecute
+信息: Retrying request to {}->http://localhost:26491
+org.openqa.selenium.NoSuchElementException: Unable to find element with name == ques[title] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 327 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0_18'
+Driver info: driver.version: TestLoginWebDriver
+Session ID: fa7b389b-fb72-48f6-af70-4e0ff3d771f9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:329)
+	at org.openqa.selenium.By$ByName.findElement(By.java:291)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:260)
+	at first.testweb.one.TestLoginWebDriver.main(TestLoginWebDriver.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.exe4j.runtime.LauncherEngine.launch(Unknown Source)
+	at com.exe4j.runtime.WinLauncher.main(Unknown Source)

@@ -1,0 +1,5 @@
+#surefire
+#Wed Jul 27 00:16:22 CST 2016
+user.dir=E\:\\rcip\\testweb
+localRepository=E\:\\maven\\repo-ccip
+basedir=E\:\\rcip\\testweb
